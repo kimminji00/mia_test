@@ -28,7 +28,7 @@ class Upload extends Component {
       img_name: img_name //파일 이름
     }
     axios
-    .post(`/api/v1/mia/img`,  JSON.stringify(data), { //api 이 형태로 만들어서 보내면 되지 않을까 하는 생각?
+    .post(`/api/v1/mia/img`,  JSON.stringify(data), { //api 이 형태로 만들어서 보냄
       headers: {
         "Content-Type": `application/json`,
     },
